@@ -1,0 +1,53 @@
+.registration-team {
+  &__container-table, &__container-form {
+    @extend %container;
+    display: flex;
+    justify-content: center;
+    @media screen and (min-width: $mobile) {
+      min-width: $mobile;
+      max-width: $mobile-max;
+    }
+    @media screen and (min-width: $tablet-min) {
+      min-width: $tablet-min;
+      max-width: $tablet-max;
+    }
+    @media screen and (min-width: $desktop) {
+      min-width: $desktop;
+      max-width: 1000px;
+    }
+  }
+}
+
+.notification {
+  position: absolute;
+  width: 300px;
+  min-height: 100px;
+  padding: 0 16px;
+  box-sizing: border-box;
+
+  border-radius: 10px;
+  background: rgba(132, 132, 132, 0.3);
+
+  top: 10px;
+  right: 10px;
+
+
+}
+
+.title {
+  display: block;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.warning {
+  background: rgba(255, 212, 39, 0.3);
+}
+
+.success {
+  background: rgba(10, 189, 0, 0.3);
+}
+
+.error {
+  background: rgba(253, 0, 0, 0.3);
+}
