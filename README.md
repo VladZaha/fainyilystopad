@@ -1,4 +1,4 @@
 # fainyilystopad
 
 
-[Відкрити сторінку реєстрації команди]([registration-team.html](https://vladzaha.github.io/fainyilystopad/registration-team.html))
+[Відкрити сторінку реєстрації команди](registration-team.html)
